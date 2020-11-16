@@ -1,3 +1,4 @@
+name: Run my action
 on: [push]
 
 jobs:
@@ -7,7 +8,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: danil-kuk/hello-world-javascript-action@v1.1
+      uses: danil-kuk/hello-world-javascript-action
       with:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
