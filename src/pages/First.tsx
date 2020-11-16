@@ -10,6 +10,16 @@ export const FirstPage: React.FC = () => (
       Second page
     </NavLink>
     <div>
+      <a
+        className="App-link"
+        href="https://reactjs.org"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Learn react
+    </a>
+    </div>
+    <div>
       <img src={logo} className="App-logo" alt="logo" />
     </div>
   </>
