@@ -17,7 +17,7 @@ export const FirstPage: React.FC = () => (
         rel="noopener noreferrer"
       >
         Learn react
-    </a>
+      </a>
     </div>
     <div>
       <img src={logo} className="App-logo" alt="logo" />
